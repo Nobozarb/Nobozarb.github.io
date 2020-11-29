@@ -14,12 +14,19 @@
   </head>
   <body>
     <div class="webgl-content">
+      <p>Use arrow keys or WASD to move up and down and rotate around the DNA.</p>
+      <p>Mouse over parts of the DNA to reveal their name.</p>
+      <p>If you get an error, refresh the page and that will probably fix it.</p>
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
         <div class="title">DNA Model</div>
       </div>
+      <h2>Analysis</h2>
+      <p>
+        This model accurately depicts a simplified view of DNA. It demonstrates the double helix shape of DNA, and one of the advantages of a 3D model with a dynamic camera is that the camera can be rotated to accurately show this double helix shape. It also shows all four nucleotides which are color-coded, and how adenine is always paired with thymine and guanine is always paired with cytosine. A digital model has the advantage that it can selectively show and hide the labels of different parts of the DNA, which saves space and makes the model appear simpler. The model also shows the hydrogen and covalent bonds and how they hold the DNA together. This model partially conveys the incredible length of DNA strands, which is another advantage of a digital model because it can randomly generate huge numbers of pairs of nucleotides (this particular model generates only 900 pairs because I was concerned that too many would slow down the program) and allow the user to move up and down so that they can see only a bit of the DNA at a time, but it fails to get across just how long and thin they are. This could be somewhat rectified by adding a zoom function, but I lacked the time to add this, and even so it would not fully get across the length and thinness of the DNA. This model also fails to show the molecular structure of the DNA. An advantage of digital models like this is that it is completely possible to add features such as the molecular structure of DNA to rectify these problems, but I lacked the time and skill to make a 3D model with that level of detail. The model also does not show how DNA is tightly coiled inside of a cell and instead shows it as being in a perfectly straight line. This problem could be solved by having more complicated code that generates the DNA in a curving and twisting strand, but I lacked the time and skill to create that system as well.
+      </p>
     </div>
   </body>
 </html>
